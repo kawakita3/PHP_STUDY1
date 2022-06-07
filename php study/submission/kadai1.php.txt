@@ -1,0 +1,11 @@
+<?php
+$rand = mt_rand(1, 100);
+
+if ($rand % 2 === 0) {
+  # 入力値が偶数ならば
+  echo $result = '偶数';
+} else {
+  # 入力値が偶数でないならば（奇数ならば）
+  echo $result = '奇数';
+}
+?>
